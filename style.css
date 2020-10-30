@@ -1,0 +1,118 @@
+body {
+    font-family: 'Roboto', Arial;
+}
+div {
+    text-align: center;
+    margin-top: 30px;
+}
+a {
+    text-decoration: none;
+    cursor: pointer;
+    color: inherit;
+}
+a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    text-align: left;
+    padding: 10px;
+}
+button {
+    border: none;
+    background: transparent;
+}
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    background-color: #F5F5F5;
+    border-top: 1px solid #E8E8E8;
+    color: #707070;
+    font-size: 14px;
+}
+
+.topnav {
+    display: flex; 
+    justify-content: space-between;
+    margin-top: 13px;
+    margin-left: 7px;
+    font-size: small;
+    color: #383838;
+}
+.botnav {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.topnavsection {
+    display: flex; 
+    gap: 15px;
+}
+.botnavsection {
+    display: flex; 
+    gap: 27px;
+    align-items: center;
+}
+#googleapps {
+    width: 20px;
+    height: auto;
+    padding-left: 5px;
+}
+#signinbutton {
+    outline: none;
+    text-decoration: none;
+    color: white;
+    background: #4c8bf5;
+    padding: 8px 13px;
+    border: none;
+    border-radius: 3px;
+}
+#logo {
+    padding-top: 100px;
+    text-align: center;
+}
+#searchbar {
+    outline: none;
+    border: 1px solid grey;
+    border-radius: 25px;
+    border-color: silver;
+    margin-top: 30px;
+    padding: 0 30px;
+    height: 40px;
+    width: 500px;
+    font-size: 14px;
+}
+#searchbar:hover {
+    box-shadow: 0px 1px 4px silver;
+}
+.magnifyingglass{
+    background: white;
+}
+.search-buttons {
+    outline: none;
+    color: #707070;
+    background: #F5F5F5;
+    border: none;
+    border-radius: 3px;
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 14px;
+}
+.search-buttons:hover {
+    border: 1px solid silver; 
+    cursor: pointer;
+}
+.search-buttons:active{
+    border: 1px solid #4285F4;
+    cursor: pointer;
+}
